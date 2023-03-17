@@ -1,0 +1,22 @@
+{
+  "name": "homenails-front",
+  "version": "1.0.0",
+  "description": "Dossier front pour le futur site web Homenails",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredMeziere/Homenails-Front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredMeziere/Homenails-Front/issues"
+  },
+  "homepage": "https://github.com/FredMeziere/Homenails-Front#readme",
+  "dependencies": {
+    "react-router-dom": "^6.9.0"
+  }
+}
