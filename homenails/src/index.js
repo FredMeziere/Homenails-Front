@@ -25,7 +25,7 @@ import About from "./Components/pages/About/About";
 import Error from "./Components/pages/Error/Error";
 import Footer from "./Components/pages/Footer/Footer";
 
-
+import "./sass/main.scss"
 
 const root = createRoot(document.getElementById("root"));
 root.render(
