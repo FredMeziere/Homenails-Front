@@ -3,27 +3,27 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 //importation des composants pour les routes
-import Header from "./Components/Header/Header";
-import Home from "./Components/Home/Home";
-import Shop from "./Components/Shop/Shop";
-import Product from "./Components/Product/Product";
-import Contact from "./Components/Contact/Contact";
-import Signup from "./Components/Signup/Signup";
-import Login from "./Components/Login/Login";
-import CGV from "./Components/CGV/CGV";
-import Legacy from "./Components/Legacy/Legacy";
-import Privacy from "./Components/Privacy/Privacy";
-import Account from "./Components/Account/Account";
-import Panier from "./Components/Panier/Panier";
-import Confirm from "./Components/Confirm/Confirm";
-import Payment from "./Components/Payment/Payment";
-import DeliveryInformation from "./Components/DeliveryInformation/DeliveryInformation";
-import Admin from "./Components/Admin/Admin";
-import AdminOrders from "./Components/AdminOrders/AdminOrders";
-import AdminClients from "./Components/AdminClients/AdminClients";
-import About from "./Components/About/About";
-import Error from "./Components/Error/Error";
-import Footer from "./Components/Footer/Footer";
+import Header from "./Components/pages/Header/Header";
+import Home from "./Components/pages/Home/Home";
+import Shop from "./Components/pages/Shop/Shop";
+import Product from "./Components/pages/Product/Product";
+import Contact from "./Components/pages/Contact/Contact";
+import Signup from "./Components/pages/Signup/Signup";
+import Login from "./Components/pages/Login/Login";
+import CGV from "./Components/pages/CGV/CGV";
+import Legacy from "./Components/pages/Legacy/Legacy";
+import Privacy from "./Components/pages/Privacy/Privacy";
+import Account from "./Components/pages/Account/Account";
+import Panier from "./Components/pages/Panier/Panier";
+import Confirm from "./Components/pages/Confirm/Confirm";
+import Payment from "./Components/pages/Payment/Payment";
+import DeliveryInformation from "./Components/pages/DeliveryInformation/DeliveryInformation";
+import Admin from "./Components/pages/Admin/Admin";
+import AdminOrders from "./Components/pages/AdminOrders/AdminOrders";
+import AdminClients from "./Components/pages/AdminClients/AdminClients";
+import About from "./Components/pages/About/About";
+import Error from "./Components/pages/Error/Error";
+import Footer from "./Components/pages/Footer/Footer";
 
 
 
