@@ -5,14 +5,14 @@ import Logo from "../../../logoSansFond/logoPrincipale.png"
 function Header () {
     return(
       <section className="header">
-        <img src={Logo} alt="logo homenails" />
+        <img src={Logo} alt="logo homenails" className="headerIMG" />
         <div className="headerMenu">
-        <Menu titre="Accueil" link="/" />
+        <Menu titre="Accueil" link="/" className="headerMenu1" />
         <Menu titre="Boutique" link="/shop" />
         <Menu titre="Contact" link="/contact" />
         <Menu titre="A propos" link="/about" />
         </div>
-        <Button titre="S'inscrire" link="/signup" />
+        <Button titre="S'inscrire" link="/signup"  className="headerButton" />
       </section>
     )
   }

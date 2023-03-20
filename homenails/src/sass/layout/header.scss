@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-image: url("../../fontMarbre/fondMarbrePlus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+.headerIMG{
+    width: 200px;
+}
+.headerButton{
+    .button{
+        button{
+    margin-right: 20px;
+        }
+    }
+}
+.headerMenu{
+    a{
+        text-decoration: none;
+        color: black;
+       margin: 0 20px;
+    }
+}
+}
