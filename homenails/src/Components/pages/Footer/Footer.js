@@ -1,7 +1,11 @@
 
 
 function Footer () {
-    //pas ouclier le return
+    return(
+      <section className="footer">
+        
+      </section>
+    )
   }
   
   export default Footer;
