@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function Menu({titre, link}) {
     return(
-        <NavLink to={link} className="menuLink">
+        <NavLink to={link}>
             {titre}
         </NavLink>
     )
