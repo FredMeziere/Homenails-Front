@@ -7,7 +7,7 @@ function Header () {
       <section className="header">
         <img src={Logo} alt="logo homenails" className="headerIMG" />
         <div className="headerMenu">
-        <Menu titre="Accueil" link="/" className="headerMenu1" />
+        <Menu titre="Accueil" link="/" />
         <Menu titre="Boutique" link="/shop" />
         <Menu titre="Contact" link="/contact" />
         <Menu titre="A propos" link="/about" />
