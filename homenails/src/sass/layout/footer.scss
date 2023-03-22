@@ -1,0 +1,62 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../../fontMarbre/fondMarbrePlus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.25));
+    border-radius: 30px 30px 0px 0px;
+    font-family: $cinzel-font;
+    font-size: 20px;
+    margin-top: 90px;
+    padding: 60px 0px 60px 0px;
+    .footerIMG{
+        height: 150px;
+    }
+    .footerNeswletter{
+        font-family: $cinzel-font;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        input{
+            border: none;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 6px 130px 6px 25px;
+            margin-bottom: 40px;
+            margin-top: 20px;
+
+            
+
+            width: 406px;
+            height: 49px;
+
+            background: #F2F2F2;
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+        
+            font-size: 20px;
+            font-family: $cinzel-font;
+   
+    }
+    }
+    .button{
+        font-family: $tan-pearl-font;
+        font-size: 20px;
+        margin-right: 0px;
+    
+    }
+    .footerMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 20px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
