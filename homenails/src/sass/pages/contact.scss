@@ -1,0 +1,97 @@
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    padding: 1em 6em;
+
+    & h1 {
+        text-align: center;
+        font-family: $tan-pearl-font;
+    }
+
+    & .contact-container {
+        padding: 2em;
+        border-radius: 30px;
+        box-shadow: 0px 6px 10px rgba($color: #000000, $alpha: 0.5);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../../fontMarbre/fondMarbrePlus.jpg");
+
+        & form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 750px;
+            height: 600px;
+
+            & input {
+                margin: 1em;
+                padding: 0.3em 0.8em;
+                border-radius: 30px;
+                width: 55%;
+                height: 30px;
+                font-size: 19px;
+                font-family: $cinzel-font;
+            }
+
+            & textarea {
+                margin: 1em;
+                margin-bottom: 0;
+                padding: 0.3em 0.8em;
+                border-radius: 30px;
+                width: 55%;
+                height: 80px;
+                font-size: 19px;
+                font-family: $cinzel-font;
+                resize: none;
+            }
+
+            & button {
+                margin: auto;
+                border: none;
+                border-radius: 30px;
+                width: 170px;
+                height: 50px;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                font-family: $tan-pearl-font;
+                background-color: $gold-color;
+            }
+        }
+    }
+
+    & .infos-container {
+        margin: auto;
+        padding: 2em;
+        width: 100%;
+        height: 680px;
+        border-radius: 30px;
+        text-align: center;
+
+        & .logo {
+            margin: 0 auto;
+            margin-top: 2em;
+            width: 200px;
+            height: 200px;
+            background-position: center;
+            background-image: url("../../logoSansFond/Déclinaison_2-removebg-preview.png");
+        }
+
+        & h2 {
+            font-family: $tan-pearl-font;
+        }
+        
+        & p {
+            font-size: 1.3rem;
+            font-family: $cinzel-font;
+        }
+
+        & div > div:nth-child(2) {
+            margin: 2em;
+            line-height: 0.5em;
+        }
+    }
+}
