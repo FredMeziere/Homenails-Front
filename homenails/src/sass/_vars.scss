@@ -1,3 +1,11 @@
+// Transitions
+$transition-100: all 100ms ease;
+$transition-200: all 200ms ease;
+$transition-300: all 300ms ease;
+$transition-400: all 400ms ease;
+$transition-500: all 500ms ease;
+$transition-600: all 600ms ease;
+
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 $cinzel-font: 'Cinzel', serif;
@@ -6,6 +14,7 @@ $cinzel-font: 'Cinzel', serif;
     font-family: 'Tan pearl';
     src: local('Tan pearl'), url(../fonts/TAN-PEARL.ttf) format('truetype');
 }
+
 $tan-pearl-font: Tan pearl;
 
 // Colors
