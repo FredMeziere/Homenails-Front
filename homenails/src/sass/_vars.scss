@@ -1,0 +1,11 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+$cinzel-font: 'Cinzel', serif;
+
+@font-face {
+    font-family: 'Tan pearl';
+    src: local('Tan pearl'), url(../fonts/TAN-PEARL.ttf) format('truetype');
+}
+$tan-pearl-font: Tan pearl;
+
+// Colors

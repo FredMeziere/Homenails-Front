@@ -8,6 +8,7 @@
     align-items: center;
     filter: drop-shadow(0px 4px 18px rgba(0, 0, 0, 0.25));
     border-radius: 0px 0px 30px 30px;
+    font-family: $cinzel-font;
 .headerIMG{
     width: 200px;
     padding: 20px 0px 20px 40px;
@@ -46,4 +47,23 @@
         transform: scale(1, 1);
        }
 }
+.buttonLink{
+    button{
+        appearance: none;
+        border: none;
+        background-color: #CB9D3B;
+        padding: 15px 25px;
+        margin-right: 80px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 8px 12px rgba(255, 255, 255, 0.297);
+        border-radius: 30px;
+        color: white;
+        font-family: $tan-pearl-font;
+    }
+    button:hover{
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.44), inset 0px 14px 19px rgba(255, 255, 255, 0.315);
+    }
+    button:active{
+        box-shadow: inset 0px 8px 12px rgba(7, 7, 7, 0.25);
+    }
+
 }
