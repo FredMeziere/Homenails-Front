@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2em auto;
+    margin-top: 2em;
     padding: 1em 6em;
-    width: 1550px;
 
     & h1 {
         text-align: center;
@@ -27,37 +26,46 @@
             width: 750px;
             height: 600px;
 
-            & input,
-            textarea {
+            & input {
                 margin: 1em;
-                padding: 0.3em 0.8em;
+                padding: 6px 130px 6px 25px;
                 border: none;
                 border-radius: 30px;
-                width: 55%;
-                height: 40px;
+                width: 300px;
+                height: 49px;
                 font-size: 19px;
-                font-family: $cinzel-font;
                 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                 background: #F2F2F2;
+                font-family: $cinzel-font;
             }
 
             & textarea {
+                margin: 1em;
+                margin-bottom: 0;
+                padding: 6px 130px 6px 25px;
+                border: none;
+                border-radius: 30px;
+                width: 300px;
+                height: 100px;
+                font-size: 19px;
                 resize: none;
-                padding: 0.8em;
-                height: 185px;
+                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                background: #F2F2F2;
+                font-family: $cinzel-font;
             }
 
             & button {
+                margin: auto;
+                margin-top: 2em;
                 appearance: none;
-                color: white;
-                width: 222px;
-                height: 59px;
                 border: none;
-                border-radius: 30px;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 8px 12px rgba(255, 255, 255, 0.297);
                 background-color: $gold-color;
-                font-size: 24px;
+                padding: 15px 25px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 8px 12px rgba(255, 255, 255, 0.297);
+                border-radius: 30px;
+                color: white;
                 font-family: $tan-pearl-font;
+                font-size: 20px;
 
                 &:hover {
                     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.44), inset 0px 14px 19px rgba(255, 255, 255, 0.315);
