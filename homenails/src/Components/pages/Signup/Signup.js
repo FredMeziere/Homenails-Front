@@ -11,13 +11,14 @@ function Signup() {
             <option selected disabled>Vous êtes...</option>
             <option value="madame">Madame</option>
             <option value="monsieur">Monsieur</option>
+            <option value="autre">Autre</option>
           </select>
 
           <input type="text" placeholder="Votre nom..." />
           <input type="text" placeholder="Votre prénom..." />
           <input type="text" placeholder="Votre date de naissance..." />
-          <input type="text" placeholder="Votre email..." />
-          <input type="text" placeholder="Confirmation email..." />
+          <input type="email" placeholder="Votre email..." />
+          <input type="email" placeholder="Confirmation email..." />
           <input type="password" placeholder="Votre mot de passe..." />
           <input type="password" placeholder="Confirmation mot de passe..." />
 
