@@ -1,0 +1,36 @@
+.CGV {
+
+    & h1 {
+        margin: 90px 0 -1rem 0;
+        text-align: center;
+        font-size: 4rem;
+        font-family: Tan pearl;
+    }
+
+    & .CGV-container {
+        margin: 0 auto;
+        padding: 2em 6em;
+        width: 1350px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        background-color: #F2F2F2;
+
+        & .CGV-category,
+        & .CGV-text {
+            text-transform: uppercase;
+            font-family: $cinzel-font;
+        }
+
+        & .CGV-category {
+            text-decoration: 2px underline black;
+            text-underline-offset: 3px;
+            font-size: 2rem;
+        }
+
+        & .CGV-text {
+            margin: 3rem 0;
+            line-height: 1.5em;
+            font-size: 1.3rem;
+        }
+    }
+}
