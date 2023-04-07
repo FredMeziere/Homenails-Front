@@ -1,7 +1,7 @@
 function Login() {
   return (
     <div className="Login">
-      <h1>Login</h1>
+      <h1>Connexion</h1>
       <div className="login-container">
         <p>Vous n'avez pas encore de compte ? Cliquez <a href="/signup">ici</a></p>
         <p>Sinon, connectez-vous ici :</p>
